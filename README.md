@@ -7,7 +7,7 @@
 
 <h3 align="center">
   <p> <br></p>
-  Portfolio website made in React, <br> using Typescript, Javascript and CSS. Based on Next.js framework.
+  Portfolio website made in React, <br> using Typescript, Javascript and CSS. <br> Based on Next.js framework.
 </h3>
 
 <p> <br><br><br></p>
