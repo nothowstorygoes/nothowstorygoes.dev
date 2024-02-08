@@ -23,7 +23,7 @@
   line-height: 150%;
   animation: 
     b .7s infinite steps(1),   
-    t calc(119*.1s) steps(119) forwards;
+    t calc(70*.1s) steps(119) forwards;
 }
 @keyframes t{
   from {background-size:0 200%}

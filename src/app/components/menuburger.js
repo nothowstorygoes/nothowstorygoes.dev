@@ -1,5 +1,5 @@
 'use client'
-import { pushRotate as Menu } from 'react-burger-menu';
+import { push as Menu } from 'react-burger-menu';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from '../css/page.module.css';
