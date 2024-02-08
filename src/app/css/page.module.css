@@ -41,7 +41,7 @@
 .slideshow_container {
   position: relative;
   width: 60%;
-  height: 0;
+  top:11vh;
   padding-top: 33.75%; /* 16:9 aspect ratio */
   margin: 0 auto;
   border-radius: 15px;

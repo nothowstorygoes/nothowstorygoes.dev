@@ -1,8 +1,7 @@
-import styles from "./page.module.css";
+'use client'
+import styles from "../css/page.module.css";
 import React from 'react';
-import Slideshow from "./slideshow.js";
-
-
+import Sidebar from '../components/menuburger.js';
 
 function Text() {
   return (
@@ -12,13 +11,14 @@ function Text() {
   )
 }
 
-
-export default function Home(){
-  return (
-      <main>
+const Home = () => 
+    { return (
+      <div id="outer-container">
+      <Sidebar />
+      <main id="page-wrap">
         <Text/>   
-        <Slideshow/>
       </main>
-      
+      </div>
+     )};
 
-  )};
+export default Home;
