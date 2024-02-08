@@ -1,8 +1,22 @@
 body {
   background-color: #171026;
+  height: 100%;
+}
+
+html{
+  height: 100%;
 }
 
 a{
   text-decoration: none;
   color:inherit;
+}
+
+#outer-container{
+  height: 100%;
+}
+
+#page-wrap{
+  height:100%;
+  overflow: auto;
 }

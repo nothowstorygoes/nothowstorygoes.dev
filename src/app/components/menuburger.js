@@ -1,16 +1,17 @@
 'use client'
-import { stack as Menu } from 'react-burger-menu';
+import { pushRotate as Menu } from 'react-burger-menu';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from '../css/page.module.css';
 
 const Sidebar = () => {
-  var styles = {
+  var styleMenu = {
     bmBurgerButton: {
       position: 'fixed',
       width: '40px',
       height: '35px',
       left: '80px',
-      top: '94px'
+      top: '96px'
     },
     bmBurgerBars: {
       background: '#ffff'
@@ -25,6 +26,7 @@ const Sidebar = () => {
     },
     bmMenu: {
       background: '#ffffff',
+      right:'0',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em',
       overflowY: 'hidden'
@@ -47,10 +49,12 @@ const Sidebar = () => {
   };
 
   return (
-      <Menu styles={styles} isOpen={false} pageWrapId='page-wrap' outerContainerId='outer-container'>
-          <Link to="/"><p id="item-list"> Home</p></Link>
+      <Menu styles={styleMenu} isOpen={false} pageWrapId='page-wrap' outerContainerId='outer-container' customBurgerIcon={<img src="/hmbmenu.svg"/>}>
+          <Link to="/"><p className={styles.itemlist}> Home</p></Link>
           <br/>
-          <Link to="project-archive"><p id="item-list"> Project Archive</p></Link>
+          <Link to="project-archive"><p className={styles.itemlist}> Project Archive</p></Link>
+          <br/>
+          <Link to="contacts"><p className={styles.itemlist}>Where to find me</p></Link>
       </Menu>
   )};
 

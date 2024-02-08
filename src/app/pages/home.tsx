@@ -6,7 +6,7 @@ import Sidebar from '../components/menuburger.js';
 function Text() {
   return (
     <div className={styles.container}>
-    <span className={styles.type}>Hi There!<br/>This is my personal portfolio. <br/> Here you can find all of my previous works <br/>and what I am currently working on.</span>
+    <span className={styles.type}>Hi There!<br/> <br />This is my personal portfolio. <br/> Here you can find all <br />of my previous works and what I am currently working on.</span>
     </div>
   )
 }
