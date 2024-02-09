@@ -1,27 +1,27 @@
 body {
-  background-image: url('../../../public/bg.png');
+  background-image: url("../../../public/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   overflow-y: hidden;
 }
 
-html{
+html {
   height: 100%;
   overflow-y: hidden;
 }
 
-a{
+a {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
 
-#outer-container{
+#outer-container {
   height: 100%;
   overflow: hidden;
 }
 
-#page-wrap{
-  height:100%;
+#page-wrap {
+  height: 100%;
   overflow-y: hidden;
 }

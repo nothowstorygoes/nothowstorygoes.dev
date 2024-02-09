@@ -12,24 +12,25 @@
 .type {
   font-family: Comfortaa, monospace;
   font-size: 50px;
-  color:#0000;
-  background:
-    linear-gradient(-90deg,#ffff 5px,#0000 0) 10px 0,
+  color: #0000;
+  background: linear-gradient(-90deg, #ffff 5px, #0000 0) 10px 0,
     linear-gradient(#ffff 0 0) 0 0;
-  background-size:calc(119*1ch) 200%;
-  -webkit-background-clip:padding-box,text;
-  background-clip:padding-box,text;
-  background-repeat:no-repeat;
+  background-size: calc(119 * 1ch) 200%;
+  -webkit-background-clip: padding-box, text;
+  background-clip: padding-box, text;
+  background-repeat: no-repeat;
   line-height: 180%;
-  animation: 
-    b .2s infinite steps(1),   
-    t calc(70*.1s) steps(119) forwards;
+  animation: b 0.2s infinite steps(1), t calc(70 * 0.1s) steps(119) forwards;
 }
-@keyframes t{
-  from {background-size:0 200%}
+@keyframes t {
+  from {
+    background-size: 0 200%;
+  }
 }
-@keyframes b{
-  50% {background-position:0 -100%,0 0}
+@keyframes b {
+  50% {
+    background-position: 0 -100%, 0 0;
+  }
 }
 
 .container {
@@ -43,11 +44,11 @@
 .slideshow_container {
   position: relative;
   width: 60%;
-  top:11vh;
+  top: 7vh;
   padding-top: 33.75%; /* 16:9 aspect ratio */
   margin: 0 auto;
   border-radius: 15px;
-  margin-bottom: 15vh;
+  margin-bottom: 15vh;;
   background-color: #fff;
   z-index: 0;
   overflow: hidden;
@@ -72,7 +73,7 @@
 .slide img {
   width: 100%;
   height: 100%;
-  object-fit:cover;
+  object-fit: cover;
 }
 
 .slideshow {
@@ -145,7 +146,8 @@
   border-width: 5px;
 }
 
-.itemlist{
+.itemlist {
+  font-family: Comfortaa, monospace;
   font-weight: lighter;
   font-size: 25px;
 }
@@ -185,7 +187,7 @@
   height: auto;
 }
 
-.contactsContainer{
+.contactsContainer {
   height: auto;
   display: flex;
   flex-direction: column;
@@ -194,27 +196,27 @@
   margin-left: 15%;
 }
 
-.contactItem{
+.contactItem {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.contactText{
-  color:#fff;
+.contactText {
+  color: #fff;
   font-size: 25px;
   text-align: center;
   margin-right: 10px; /* Adjust the margin as needed */
 }
 
-.contactImg{
+.contactImg {
   width: 50px;
   height: 50px;
   margin-right: 20px; /* Adjust the margin as needed */
 }
 
-.propic{
+.propic {
   justify-content: center;
   margin-right: 20%;
   margin-top: 0;
@@ -223,4 +225,48 @@
   height: 200px; /* Adjust the height as needed */
   border-radius: 50%; /* Make the propic circular */
   object-fit: cover; /* Prevent the propic from stretching */
+}
+
+.textSlideshow {
+  font-family: Comfortaa, monospace;
+  font-size: 20px;
+  margin-bottom: 5vh;
+  color: #ffff;
+  text-align: center;
+}
+
+.prjText {
+  font-family: Comfortaa, monospace;
+  font-size: 50px;
+  color: #0000;
+  background: linear-gradient(-90deg, #ffff 5px, #0000 0) 10px 0,
+    linear-gradient(#ffff 0 0) 0 0;
+  background-size: calc(62 * 1ch) 200%;
+  -webkit-background-clip: padding-box, text;
+  background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  line-height: 180%;
+  animation: b 0.2s infinite steps(1), t calc( 40* 0.1s) steps(62) forwards;
+}
+@keyframes t {
+  from {
+    background-size: 0 200%;
+  }
+}
+@keyframes b {
+  50% {
+    background-position: 0 -100%, 0 0;
+  }
+}
+
+.containerPrj {
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+  width: 70%;
+  height: 20vh;
+}
+
+.bodyOverflow {
+  overflow: auto;
 }
