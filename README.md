@@ -1,13 +1,15 @@
 
 <p align="center">
-    <img src="https://github.com/nothowstorygoes/nothowstorygoes.dev-v1/assets/159369503/a0354e79-5df0-4eea-a009-5275656e9b6d">
+    <img src="https://github.com/nothowstorygoes/nothowstorygoes.dev/assets/159369503/30a34ba1-f783-4ba5-a2d3-b2f663cc4912">
 </p>
 
-<h1 align="center">nothowstorygoes.dev</h1>
+
+<h1 align="center">nothowstorygoes.dev
+</h1>
 
 <h3 align="center">
   <p> <br></p>
-  Portfolio website made in React, <br> using Typescript, Javascript and CSS. <br> Based on Next.js framework.
+  Portfolio website made in React. <br> Based on Next.js framework.
 </h3>
 
 <p> <br><br><br></p>
