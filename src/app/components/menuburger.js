@@ -1,8 +1,12 @@
 "use client";
-import { push as Menu } from "react-burger-menu";
 import React from "react";
+import dynamic from "next/dynamic";
 import { Link } from "react-router-dom";
 import styles from "../css/page.module.css";
+
+const Menu = dynamic(() => import('react-burger-menu/lib/menus/push'), {
+  ssr: false
+});
 
 const Sidebar = () => {
   var styleMenu = {
