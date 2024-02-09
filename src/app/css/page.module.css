@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu+Mono&display=swap");
 
 .main {
   display: flex;
@@ -48,7 +48,7 @@
   padding-top: 33.75%; /* 16:9 aspect ratio */
   margin: 0 auto;
   border-radius: 15px;
-  margin-bottom: 15vh;;
+  margin-bottom: 15vh;
   background-color: #fff;
   z-index: 0;
   overflow: hidden;
@@ -246,7 +246,7 @@
   background-clip: padding-box, text;
   background-repeat: no-repeat;
   line-height: 180%;
-  animation: b 0.2s infinite steps(1), t calc( 40* 0.1s) steps(62) forwards;
+  animation: b 0.2s infinite steps(1), t calc(40 * 0.1s) steps(62) forwards;
 }
 @keyframes t {
   from {

@@ -14,9 +14,9 @@ function PrjText() {
 
 const Prj = () => {
   return (
-    <div style={{ overflowY: 'auto', height: '100vh' }} id='outer-container'>
+    <div style={{ overflowY: "auto", height: "100vh" }} id="outer-container">
       <Sidebar />
-      <main style={{ overflowY: 'auto', height: '100vh' }} id='page-wrap'>
+      <main style={{ overflowY: "auto", height: "100vh" }} id="page-wrap">
         <div className={styles.containerPrj}>
           <PrjText />
         </div>
