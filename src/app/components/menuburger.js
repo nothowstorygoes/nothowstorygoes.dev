@@ -26,7 +26,7 @@ const Sidebar = () => {
       top: 0
     },
     bmMenu: {
-      background: '#ffffff',
+      background: 'rgba(0,0,0,0)',
       right:'0',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em',
@@ -36,29 +36,39 @@ const Sidebar = () => {
       fill: '#373a47'
     },
     bmItemList: {
-      color: '#171026',
+      color: '#ffff',
       padding: '0.8em'
     },
     bmItem: {
       display: 'inline-block'
     },
     bmOverlay: {
-      background: 'rgba(0, 0, 0, 0.8)',
+      background: 'rgba(18, 12, 33, 0.6)',
       top: 0,
       right: 0
     } 
   };
 
+  const handleStateChange = (state) => {
+    if (state.isOpen) {
+      document.querySelector('.bm-burger-button').style.display = 'none';
+    } else {
+      document.querySelector('.bm-burger-button').style.display = 'block';
+    }
+  }
+
   return (
-      <Menu styles={styleMenu} isOpen={false} pageWrapId='page-wrap' outerContainerId='outer-container' customBurgerIcon={<img src="/hmbmenu.svg"/>}>
-          <Link to="/"><p className={styles.itemlist}>Home</p></Link>
-          <br/>
-          <br/>
-          <Link to="/project-archive"><p className={styles.itemlist}>Project Archive</p></Link>
-          <br/>
-          <br/>
-          <Link to="/contacts"><p className={styles.itemlist}>Contacts</p></Link>
-      </Menu>
-  )};
+    <Menu styles={styleMenu} onStateChange={handleStateChange} pageWrapId='page-wrap' outerContainerId='outer-container' customBurgerIcon={<img src="/hmbmenu.svg"/>}>
+        <Link to="/"><p className={styles.itemlist}>Home</p></Link>
+        <br/>
+        <br/>
+        <Link to="/project-archive"><p className={styles.itemlist}>Project Archive</p></Link>
+        <br/>
+        <br/>
+        <Link to="/contacts"><p className={styles.itemlist}>Contacts</p></Link>
+    </Menu>
+  );
+};
 
 export default Sidebar;
+``
