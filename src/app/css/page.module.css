@@ -20,9 +20,9 @@
   -webkit-background-clip:padding-box,text;
   background-clip:padding-box,text;
   background-repeat:no-repeat;
-  line-height: 150%;
+  line-height: 180%;
   animation: 
-    b .7s infinite steps(1),   
+    b .2s infinite steps(1),   
     t calc(70*.1s) steps(119) forwards;
 }
 @keyframes t{

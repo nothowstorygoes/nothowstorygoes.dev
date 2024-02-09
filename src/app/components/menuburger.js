@@ -11,7 +11,7 @@ const Sidebar = () => {
       width: '40px',
       height: '35px',
       left: '80px',
-      top: '96px'
+      top: '105px'
     },
     bmBurgerBars: {
       background: '#ffff'
@@ -22,6 +22,7 @@ const Sidebar = () => {
     bmMenuWrap: {
       position: 'fixed',
       height: '100%',
+      left:0,
       top: 0
     },
     bmMenu: {
@@ -50,11 +51,13 @@ const Sidebar = () => {
 
   return (
       <Menu styles={styleMenu} isOpen={false} pageWrapId='page-wrap' outerContainerId='outer-container' customBurgerIcon={<img src="/hmbmenu.svg"/>}>
-          <Link to="/"><p className={styles.itemlist}> Home</p></Link>
+          <Link to="/"><p className={styles.itemlist}>Home</p></Link>
           <br/>
-          <Link to="project-archive"><p className={styles.itemlist}> Project Archive</p></Link>
           <br/>
-          <Link to="contacts"><p className={styles.itemlist}>Where to find me</p></Link>
+          <Link to="/project-archive"><p className={styles.itemlist}>Project Archive</p></Link>
+          <br/>
+          <br/>
+          <Link to="/contacts"><p className={styles.itemlist}>Contacts</p></Link>
       </Menu>
   )};
 

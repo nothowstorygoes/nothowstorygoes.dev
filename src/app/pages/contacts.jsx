@@ -6,12 +6,15 @@ import Sidebar from '../components/menuburger';
 const Contacts = () =>
 {
     return (
-        <main>
+        <div id="outer-container">
             <Sidebar/>
+            <main id="page-wrap">
             <div className='contactsContainer'>
                 {/*<SocialBadge url={'http://github.com/nothowstorygoes'} /> */}
             </div>
         </main>
+        </div>
+        
         
     )
 }
