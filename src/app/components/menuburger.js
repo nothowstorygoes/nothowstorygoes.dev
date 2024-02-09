@@ -11,7 +11,7 @@ const Sidebar = () => {
       width: '40px',
       height: '35px',
       left: '80px',
-      top: '105px'
+      top: '107px'
     },
     bmBurgerBars: {
       background: '#ffff'
