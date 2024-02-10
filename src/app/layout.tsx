@@ -15,6 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="description" content="Pio Alessandro Esposito, BSc Computer Science student, Web Developer"/>
+      </head> 
       <body className={inter.className}>{children}</body>
     </html>
   );
