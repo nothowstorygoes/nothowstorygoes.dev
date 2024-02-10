@@ -81,16 +81,13 @@
 
   .container {
     position: fixed;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     width: 90%;
     height: 60vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 }
 
@@ -107,15 +104,11 @@
 
   .container {
     position: fixed;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     width: 80%;
     height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 }
