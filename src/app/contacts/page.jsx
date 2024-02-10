@@ -25,9 +25,9 @@ function Email({info})
   let ico = info.ico;
   return(
   <div className={styles.contactItem}>
-      <a onClick={() => router.push('mailto:esposito.pioalessandro@gmail.com')}>
+      <button onClick={() => router.push('mailto:esposito.pioalessandro@gmail.com')}>
       <Image src={ico} className={styles.contactImg} alt=""/>
-      </a>
+      </button>
       <p className={styles.contactText}> {name}</p>
     </div>
   )
