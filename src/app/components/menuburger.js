@@ -66,7 +66,7 @@ const Sidebar = () => {
       onStateChange={handleStateChange}
       pageWrapId="page-wrap"
       outerContainerId="outer-container"
-      customBurgerIcon={<Image src="nextjs-github-pages/hmbmenu.svg" alt="" />}
+      customBurgerIcon={<Image src="/hmbmenu.svg" alt="" />}
     >
       <Link href="/">
         <p className={styles.itemList}>Home</p>
