@@ -54,11 +54,14 @@
 @media only screen and (max-width: 600px) {
   .parentContainer {
     margin: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end; /* Position container at the bottom */
-    margin-top: 200px; /* Adjust the margin-top value as needed */
+    justify-content: flex-end;
   }
 
   .contactsContainer {
@@ -66,9 +69,14 @@
     margin-bottom: 20px;
   }
 
+  .contactItem {
+    justify-content: center;
+  }
+
   .contactText {
     font-size: 15px;
     margin-right: 5px;
+    text-align: center;
   }
 
   .contactImg {
@@ -82,6 +90,10 @@
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 }
 
@@ -89,15 +101,24 @@
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .parentContainer {
     margin: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .contactsContainer {
     margin-left: 8%;
   }
 
+  .contactItem {
+    justify-content: center;
+  }
+
   .contactText {
     font-size: 18px;
     margin-right: 5px;
+    text-align: center;
   }
 
   .contactImg {
