@@ -78,7 +78,8 @@
 
   .propic {
   max-width: 200px;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
   border-radius: 50%;
 }
 }
