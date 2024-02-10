@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Sidebar from "../components/menuburger";
-import styles from "../css/page.module.css";
+import styles from "../css/contacts.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
