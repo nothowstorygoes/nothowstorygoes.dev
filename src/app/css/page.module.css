@@ -58,8 +58,8 @@
     left: 65%;
     transform: translate(-50%, -50%);
     margin: 0;
-    margin-bottom: 5vh;
-    width: 75%;
+    width: 90%;
+    margin-right: 15%;
     height: 60vh;
   }
 }
