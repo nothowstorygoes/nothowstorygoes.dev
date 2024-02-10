@@ -48,7 +48,7 @@
   }
 
   .type {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 150%;
   }
 
@@ -59,7 +59,6 @@
     transform: translate(-50%, -50%);
     margin: 0;
     width: 90%;
-    margin-right: 15%;
     height: 60vh;
   }
 }
@@ -71,7 +70,7 @@
   }
 
   .type {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 160%;
   }
 
