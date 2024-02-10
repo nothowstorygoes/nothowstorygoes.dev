@@ -32,21 +32,21 @@ const Contacts = () => {
               info={{
                 nome: "esposito.pioalessandro@gmail.com",
                 url: "mailto:esposito.pioalessandro@gmail.com",
-                ico: "/icons/gmail.png",
+                ico: "/nothowstorygoes.dev/icons/gmail.png",
               }}
             />
             <Social
               info={{
                 nome: "nothowstorygoes",
                 url: "https://github.com/nothowstorygoes",
-                ico: "/icons/github.png",
+                ico: "/nothowstorygoes.dev/icons/github.png",
               }}
             />
             <Social
               info={{
                 nome: "Pio Alessandro Esposito",
                 url: "NULL",
-                ico: "/icons/linkedin.png",
+                ico: "/nothowstorygoes.dev/icons/linkedin.png",
               }}
             />
           </div>
