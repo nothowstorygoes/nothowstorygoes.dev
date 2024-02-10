@@ -3,8 +3,7 @@
     <img src="https://github.com/nothowstorygoes/nothowstorygoes.dev/assets/159369503/30a34ba1-f783-4ba5-a2d3-b2f663cc4912">
 </p>
 
-
-<h1 align="center">nothowstorygoes.dev
+<h1 align="center"><a href="https://nothowstorygoes.github.io/nothowstorygoes.dev/">nothowstorygoes.dev</a>
 </h1>
 
 <h3 align="center">
