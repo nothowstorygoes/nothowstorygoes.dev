@@ -41,6 +41,7 @@
   height: 80vh;
 }
 
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
@@ -80,12 +81,16 @@
 
   .container {
     position: fixed;
-    top: 200px;
-    left: 50px;
+    top: 70%;
+    left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     width: 90%;
     height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -102,11 +107,15 @@
 
   .container {
     position: fixed;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     width: 80%;
     height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
