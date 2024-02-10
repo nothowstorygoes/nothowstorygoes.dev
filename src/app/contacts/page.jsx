@@ -19,7 +19,7 @@ function Social({ info }) {
 }
 
 function ProPic() {
-  return <Image src="/propic.jpg" alt="profile pic" className={styles.propic} />;
+  return <Image src="/nothowstorygoes.dev/propic.jpg" alt="profile pic" className={styles.propic} />;
 }
 const Contacts = () => {
   return (

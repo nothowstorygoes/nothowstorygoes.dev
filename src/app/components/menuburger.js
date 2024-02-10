@@ -65,7 +65,7 @@ const Sidebar = () => {
       onStateChange={handleStateChange}
       pageWrapId="page-wrap"
       outerContainerId="outer-container"
-      customBurgerIcon={<img src="/hmbmenu.svg" alt="" />}
+      customBurgerIcon={<img src="/nothowstorygoes.dev/hmbmenu.svg" alt="" />}
     >
       <Link href="/">
         <p className={styles.itemList}>Home</p>
