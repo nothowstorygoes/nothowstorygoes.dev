@@ -2,6 +2,7 @@
 import React from "react";
 import Sidebar from "../components/menuburger";
 import styles from "../css/page.module.css";
+import Image from "next/image";
 
 function Social({ info }) {
   let name = info.nome;
@@ -10,7 +11,7 @@ function Social({ info }) {
   return (
     <div className={styles.contactItem}>
       <a href={url}>
-      <Image src={ico} className={styles.contactImg}/>
+      <Image src={ico} className={styles.contactImg} alt=""/>
       </a>
       <p className={styles.contactText}> {name}</p>
     </div>
