@@ -12,29 +12,34 @@ function Social({ info }) {
   return (
     <div className={styles.contactItem}>
       <a href={url}>
-      <Image src={ico} className={styles.contactImg} alt=""/>
+        <Image src={ico} className={styles.contactImg} alt="" />
       </a>
       <p className={styles.contactText}> {name}</p>
     </div>
   );
 }
 
-function Email({info})
-{
+function Email({ info }) {
   let name = info.nome;
   let ico = info.ico;
-  return(
-  <div className={styles.contactItem}>
-      <Link href={'mailto:esposito.pioalessandro@gmail.com'}>
-      <Image src={ico} className={styles.contactImg} alt=""/>
+  return (
+    <div className={styles.contactItem}>
+      <Link href={"mailto:esposito.pioalessandro@gmail.com"}>
+        <Image src={ico} className={styles.contactImg} alt="" />
       </Link>
       <p className={styles.contactText}> {name}</p>
     </div>
-  )
+  );
 }
 
 function ProPic() {
-  return <Image src="/nothowstorygoes.dev/propic.jpg" alt="profile pic" className={styles.propic} />;
+  return (
+    <Image
+      src="/nothowstorygoes.dev/propic.jpg"
+      alt="profile pic"
+      className={styles.propic}
+    />
+  );
 }
 const Contacts = () => {
   return (
