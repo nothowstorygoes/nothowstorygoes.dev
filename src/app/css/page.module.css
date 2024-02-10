@@ -53,14 +53,17 @@
   }
 
   .container {
-    margin: 2% auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
     width: 90%;
     height: 60vh;
-    position: fixed;
-    top: 75%;
-    left: 80%;
-    transform: translateX(-50%);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -76,13 +79,16 @@
   }
 
   .container {
-    margin: 3% auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
     width: 80%;
     height: 70vh;
-    position: fixed;
-    top: 75%;
-    left: 80%;
-    transform: translateX(-50%);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
