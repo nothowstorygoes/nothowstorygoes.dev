@@ -53,36 +53,26 @@
 /* Media query for smartphones screens */
 @media only screen and (max-width: 600px) {
   .parentContainer {
-    margin: 50px;
+    margin: 30px;
   }
   
   .contactsContainer {
-    margin-left: 10%;
-    align-items: flex-start; /* Align the contact items to the top */
-  }
-  
-  .contactItem {
-    flex-direction: column; /* Display items in columns */
-    align-items: center; /* Center align each item */
-    margin-bottom: 10px; /* Add spacing between items */
+    margin-left: 5%;
   }
   
   .contactText {
-    font-size: 20px;
-    margin-right: 0; /* Remove right margin */
-    margin-bottom: 5px; /* Add spacing between items */
+    font-size: 15px;
+    margin-right: 5px;
   }
   
   .contactImg {
-    order: 1; /* Move the image to the top */
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-    margin-bottom: 5px; /* Add spacing between items */
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
   }
   
   .propic {
-    order: 3; /* Move the propic to the bottom */
-    margin-top: 10px; /* Add spacing between items */
+    margin-top: 20px;
     width: 100%; /* Stretch the propic to fill the container */
     height: auto; /* Adjust the height automatically */
   }
@@ -91,27 +81,27 @@
 /* Media query for tablet screens */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .parentContainer {
-    margin: 100px;
+    margin: 50px;
   }
   
   .contactsContainer {
-    margin-left: 12%;
+    margin-left: 8%;
   }
   
   .contactText {
-    font-size: 23px;
-    margin-right: 8px;
+    font-size: 18px;
+    margin-right: 5px;
   }
   
   .contactImg {
-    width: 45px;
-    height: 45px;
-    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
   }
   
   .propic {
-    margin-right: 15%;
-    width: 180px;
-    height: 180px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
   }
 }
