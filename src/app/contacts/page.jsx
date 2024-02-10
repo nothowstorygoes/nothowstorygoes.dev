@@ -2,7 +2,7 @@
 import React from "react";
 import Sidebar from "../components/menuburger";
 import styles from "../css/page.module.css";
-import Image from "next/image";
+import {Image} from "next/image";
 
 function Social({ info }) {
   let name = info.nome;
