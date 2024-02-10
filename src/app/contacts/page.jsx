@@ -13,8 +13,8 @@ function Social({ info }) {
     <div className={styles.contactItem}>
       <a href={url}>
       <Image src={ico} className={styles.contactImg} alt=""/>
-      <p className={styles.contactText}> {name}</p>
       </a>
+      <p className={styles.contactText}> {name}</p>
     </div>
   );
 }
@@ -27,8 +27,8 @@ function Email({info})
   <div className={styles.contactItem}>
       <Link href={'mailto:esposito.pioalessandro@gmail.com'}>
       <Image src={ico} className={styles.contactImg} alt=""/>
-      <p className={styles.contactText}> {name}</p>
       </Link>
+      <p className={styles.contactText}> {name}</p>
     </div>
   )
 }
