@@ -3,7 +3,7 @@ import React from "react";
 import Sidebar from "../components/menuburger";
 import styles from "../css/page.module.css";
 import Image from "next/image";
-import { useRouter} from "next/router";
+import Link from "next/link";
 
 function Social({ info }) {
   let name = info.nome;
@@ -13,8 +13,8 @@ function Social({ info }) {
     <div className={styles.contactItem}>
       <a href={url}>
       <Image src={ico} className={styles.contactImg} alt=""/>
-      </a>
       <p className={styles.contactText}> {name}</p>
+      </a>
     </div>
   );
 }
@@ -25,10 +25,10 @@ function Email({info})
   let ico = info.ico;
   return(
   <div className={styles.contactItem}>
-      <button onClick={() => router.push('mailto:esposito.pioalessandro@gmail.com')}>
+      <Link href={'mailto:esposito.pioalessandro@gmail.com'}>
       <Image src={ico} className={styles.contactImg} alt=""/>
-      </button>
       <p className={styles.contactText}> {name}</p>
+      </Link>
     </div>
   )
 }
