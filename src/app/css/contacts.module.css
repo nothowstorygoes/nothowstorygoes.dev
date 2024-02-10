@@ -77,11 +77,10 @@
   }
 
   .propic {
-    width: 80%;
-    max-width: 200px;
-    height: auto;
-    border-radius: 50%;
-  }
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
 }
 
 /* Media query for tablet screens */
