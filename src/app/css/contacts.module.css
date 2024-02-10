@@ -79,6 +79,12 @@
     width: 80%;
     max-width: 200px;
     height: auto;
+    border-radius: 50%; /* Make it circular */
+  }
+  
+  .propic-container {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -111,5 +117,11 @@
     width: 50%;
     max-width: 200px;
     height: auto;
+    border-radius: 50%; /* Make it circular */
+  }
+  
+  .propic-container {
+    display: flex;
+    justify-content: center;
   }
 }
