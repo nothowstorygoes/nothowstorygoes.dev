@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu+Mono&display=swap");
+
+.parentContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin: 200px;
+    height: auto;
+  }
+  
+  .contactsContainer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align the contact items to the right */
+    justify-content: center;
+    margin-left: 15%;
+  }
+  
+  .contactItem {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row; /* Add this line */
+  }
+  
+  .contactText {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .contactImg {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .propic {
+    justify-content: center;
+    margin-right: 20%;
+    margin-top: 0;
+    align-items: center;
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the propic circular */
+    object-fit: cover; /* Prevent the propic from stretching */
+  }

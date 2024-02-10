@@ -1,7 +1,7 @@
 "use client";
 import Slideshow from "../components/slideshow";
 import Sidebar from "../components/menuburger";
-import styles from "../css/page.module.css";
+import styles from "../css/prjarch.module.css";
 
 function PrjText() {
   return (

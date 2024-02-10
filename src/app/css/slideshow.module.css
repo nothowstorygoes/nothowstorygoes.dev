@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu+Mono&display=swap");
+
+.slideshow_container {
+    position: relative;
+    width: 60%;
+    top: 7vh;
+    padding-top: 33.75%; /* 16:9 aspect ratio */
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 15vh;
+    background-color: #fff;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slideshow {
+    position: relative;
+  }
+  
+  .slideshow img {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+  
+  .slideshow img:first-child {
+    display: block;
+  }
+  
+  .prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    z-index: 1;
+  }
+  
+  .next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    z-index: 1;
+  }
+  
+  .prev:before,
+  .next:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transition: width 0.3s ease, height 0.3s ease, border-width 0.3s ease;
+  }
+  
+  .prev:before {
+    transform: rotate(-135deg);
+    margin-right: 6px;
+  }
+  
+  .next:before {
+    transform: rotate(45deg);
+    margin-left: 6px;
+  }
+  
+  .prev:hover:before,
+  .next:hover:before {
+    width: 30px;
+    height: 30px;
+    border-width: 5px;
+  }
+
+  .textSlideshow {
+    font-family: Comfortaa, monospace;
+    font-size: 20px;
+    margin-bottom: 5vh;
+    color: #ffff;
+    text-align: center;
+  }
+  
