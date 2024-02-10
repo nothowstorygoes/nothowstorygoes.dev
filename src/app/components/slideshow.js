@@ -6,7 +6,7 @@ const Slideshow = () => {
   const slides = [
     {
       id: 1,
-      src: "/avv.mp4",
+      src: "/nextjs-github-pages/avv.mp4",
       alt: "Screenshot of my project",
       href: "https://www.avvcarloantonioesposito.altervista.org",
       text: "Website made in traditional HTML, CSS and JS for a lawyer",
@@ -44,7 +44,7 @@ const Slideshow = () => {
                     <source src={slide.src} type="video/mp4" />
                   </video>
                 ) : (
-                  <img src={slide.src} alt={slide.alt} />
+                  <Image src={slide.src} alt={slide.alt}/>
                 )}
               </a>
             ) : (
@@ -60,7 +60,7 @@ const Slideshow = () => {
                     <source src={slide.src} type="video/mp4" />
                   </video>
                 ) : (
-                  <img src={slide.src} alt={slide.alt} />
+                  <Image src={slide.src} alt={slide.alt}/>
                 )}
               </>
             )}

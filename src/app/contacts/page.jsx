@@ -10,7 +10,7 @@ function Social({ info }) {
   return (
     <div className={styles.contactItem}>
       <a href={url}>
-        <img src={ico} alt="" className={styles.contactImg} />
+      <Image src={ico} className={styles.contactImg}/>
       </a>
       <p className={styles.contactText}> {name}</p>
     </div>
@@ -18,7 +18,7 @@ function Social({ info }) {
 }
 
 function ProPic() {
-  return <img src="./propic.jpg" alt="profile pic" className={styles.propic} />;
+  return <Image src="/nextjs-github-pages/propic.jpg" alt="profile pic" className={styles.propic} />;
 }
 const Contacts = () => {
   return (
@@ -31,21 +31,21 @@ const Contacts = () => {
               info={{
                 nome: "esposito.pioalessandro@gmail.com",
                 url: "mailto:esposito.pioalessandro@gmail.com",
-                ico: "./icons/gmail.png",
+                ico: "/nextjs-github-pages/icons/gmail.png",
               }}
             />
             <Social
               info={{
                 nome: "nothowstorygoes",
                 url: "https://github.com/nothowstorygoes",
-                ico: "./icons/github.png",
+                ico: "/nextjs-github-pages/icons/github.png",
               }}
             />
             <Social
               info={{
                 nome: "Pio Alessandro Esposito",
                 url: "NULL",
-                ico: "./icons/linkedin.png",
+                ico: "/nextjs-github-pages/icons/linkedin.png",
               }}
             />
           </div>
