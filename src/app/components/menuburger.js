@@ -3,6 +3,7 @@ import React from "react";
 import { push as Menu } from "react-burger-menu";
 import styles from "../css/page.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const Sidebar = () => {
   var styleMenu = {
