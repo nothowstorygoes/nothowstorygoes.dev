@@ -1,21 +1,30 @@
 "use client";
+import styles from "./css/page.module.css";
 import React from "react";
-import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
-import Prj from "./pages/prjarch";
-import Contacts from "./pages/contacts";
+import Sidebar from "./components/menuburger.js";
 
-const App = () => {
+function Text() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/project-archive" element={<Prj />} />
-        <Route path="/contacts" element={<Contacts />} />
-        {/* Add more routes here */}
-      </Routes>
-    </BrowserRouter>
+    <div className={styles.container}>
+      <span className={styles.type}>
+        Hi There!
+        <br /> <br />
+        This is my personal portfolio. <br /> Here you can find my <br />{" "}
+        project archive and all of my social platforms.
+      </span>
+    </div>
+  );
+}
+
+const Home = () => {
+  return (
+    <div id="outer-container">
+      <Sidebar />
+      <main id="page-wrap">
+        <Text />
+      </main>
+    </div>
   );
 };
 
-export default App;
+export default Home;

@@ -1,12 +1,8 @@
 "use client";
 import React from "react";
-import dynamic from "next/dynamic";
-import { Link } from "react-router-dom";
+import { push as Menu } from "react-burger-menu";
 import styles from "../css/page.module.css";
-
-const Menu = dynamic(() => import('react-burger-menu/lib/menus/push'), {
-  ssr: false
-});
+import Link from "next/link";
 
 const Sidebar = () => {
   var styleMenu = {
@@ -45,6 +41,8 @@ const Sidebar = () => {
     },
     bmItem: {
       display: "inline-block",
+      fontWeight: "light",
+      fontSize: "30px",
     },
     bmOverlay: {
       background: "rgba(18, 12, 33, 0.6)",
@@ -69,22 +67,19 @@ const Sidebar = () => {
       outerContainerId="outer-container"
       customBurgerIcon={<img src="/hmbmenu.svg" />}
     >
-      <Link to="/">
-        <p className={styles.itemlist}>Home</p>
+      <Link href="/">
+        <p className={styles.itemList}>Home</p>
       </Link>
       <br />
-      <br />
-      <Link to="/project-archive">
-        <p className={styles.itemlist}>Project Archive</p>
+      <Link href="/prjarch">
+        <p className={styles.itemList}>Project Archive</p>
       </Link>
       <br />
-      <br />
-      <Link to="/contacts">
-        <p className={styles.itemlist}>Contacts</p>
+      <Link href="/contacts">
+        <p className={styles.itemList}>Contacts</p>
       </Link>
     </Menu>
   );
 };
 
 export default Sidebar;
-``;
