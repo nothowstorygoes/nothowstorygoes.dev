@@ -3,7 +3,6 @@ import React from "react";
 import { push as Menu } from "react-burger-menu";
 import styles from "../css/page.module.css";
 import Link from "next/link";
-import Image from "next/image";
 
 const Sidebar = () => {
   var styleMenu = {
@@ -66,7 +65,7 @@ const Sidebar = () => {
       onStateChange={handleStateChange}
       pageWrapId="page-wrap"
       outerContainerId="outer-container"
-      customBurgerIcon={<Image src="/hmbmenu.svg" alt="" />}
+      customBurgerIcon={<img src="/hmbmenu.svg" alt="" />}
     >
       <Link href="/">
         <p className={styles.itemList}>Home</p>

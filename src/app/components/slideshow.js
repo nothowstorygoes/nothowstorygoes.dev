@@ -7,7 +7,7 @@ const Slideshow = () => {
   const slides = [
     {
       id: 1,
-      src: "/avv.mp4",
+      src: "nothowstorygoes.dev/avv.mp4",
       alt: "Screenshot of my project",
       href: "https://www.avvcarloantonioesposito.altervista.org",
       text: "Website made in traditional HTML, CSS and JS for a lawyer",
