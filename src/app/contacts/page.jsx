@@ -3,6 +3,7 @@ import React from "react";
 import Sidebar from "../components/menuburger";
 import styles from "../css/page.module.css";
 import Image from "next/image";
+import { useRouter} from "next/router";
 
 function Social({ info }) {
   let name = info.nome;
@@ -18,6 +19,20 @@ function Social({ info }) {
   );
 }
 
+function Email({info})
+{
+  let name = info.nome;
+  let ico = info.ico;
+  return(
+  <div className={styles.contactItem}>
+      <a href={url} onClick={() => router.push('mailto:esposito.pioalessandro@gmail.com')}>
+      <Image src={ico} className={styles.contactImg} alt=""/>
+      </a>
+      <p className={styles.contactText}> {name}</p>
+    </div>
+  )
+}
+
 function ProPic() {
   return <Image src="/nothowstorygoes.dev/propic.jpg" alt="profile pic" className={styles.propic} />;
 }
@@ -28,10 +43,9 @@ const Contacts = () => {
       <main id="page-wrap">
         <div className={styles.parentContainer}>
           <div className={styles.contactsContainer}>
-            <Social
+            <Email
               info={{
                 nome: "esposito.pioalessandro@gmail.com",
-                url: "mailto:esposito.pioalessandro@gmail.com",
                 ico: "/nothowstorygoes.dev/icons/gmail.png",
               }}
             />
