@@ -54,37 +54,32 @@
 @media only screen and (max-width: 600px) {
   .parentContainer {
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
   .contactsContainer {
     margin-left: 5%;
+    margin-bottom: 20px;
   }
-  
+
   .contactText {
     font-size: 15px;
     margin-right: 5px;
   }
-  
+
   .contactImg {
     width: 30px;
     height: 30px;
     margin-right: 10px;
   }
-  
+
   .propic {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
     width: 80%;
     max-width: 200px;
     height: auto;
-    border-radius: 50%; /* Make it circular */
-  }
-  
-  .propic-container {
-    display: flex;
-    justify-content: center;
+    border-radius: 50%;
   }
 }
 
@@ -93,22 +88,22 @@
   .parentContainer {
     margin: 50px;
   }
-  
+
   .contactsContainer {
     margin-left: 8%;
   }
-  
+
   .contactText {
     font-size: 18px;
     margin-right: 5px;
   }
-  
+
   .contactImg {
     width: 40px;
     height: 40px;
     margin-right: 10px;
   }
-  
+
   .propic {
     margin-top: 20px;
     margin-left: auto;
@@ -117,11 +112,6 @@
     width: 50%;
     max-width: 200px;
     height: auto;
-    border-radius: 50%; /* Make it circular */
-  }
-  
-  .propic-container {
-    display: flex;
-    justify-content: center;
+    border-radius: 50%;
   }
 }
