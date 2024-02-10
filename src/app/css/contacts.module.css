@@ -55,7 +55,7 @@
   .parentContainer {
     margin: 30px;
     position: fixed;
-    bottom: 0;
+    bottom: 50px;
     left: 0;
     right: 0;
     display: flex;
