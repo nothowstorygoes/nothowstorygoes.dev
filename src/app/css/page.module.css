@@ -60,10 +60,6 @@
     margin: 0;
     width: 90%;
     height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 }
 
@@ -86,9 +82,5 @@
     margin: 0;
     width: 80%;
     height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 }
