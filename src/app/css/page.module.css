@@ -80,14 +80,11 @@
   }
 
   .container {
-    position: fixed;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    margin: 2% auto;
     width: 90%;
     height: 60vh;
-    display: flex;
+    top: 65%;
+    left: 80%;
   }
 }
 
@@ -103,12 +100,13 @@
   }
 
   .container {
-    position: fixed;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    margin: 3% auto;
     width: 80%;
     height: 70vh;
+    top: 70%;
+    left: 85%;
   }
 }
+
+
+
