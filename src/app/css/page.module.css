@@ -57,7 +57,7 @@
     width: 90%;
     height: 60vh;
     position: fixed;
-    top: 70%;
+    top: 75%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -83,7 +83,7 @@
     width: 80%;
     height: 70vh;
     position: fixed;
-    top: 70%;
+    top: 75%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
