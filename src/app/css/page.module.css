@@ -48,16 +48,13 @@
   }
 
   .type {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 150%;
+    background-size: calc(50 * 1ch) 200%;
   }
 
   .container {
-    position: fixed;
-    top: 70%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    margin: 5% auto;
     width: 90%;
     height: 60vh;
   }
@@ -70,16 +67,13 @@
   }
 
   .type {
-    font-size: 35px;
+    font-size: 40px;
     line-height: 160%;
+    background-size: calc(60 * 1ch) 200%;
   }
 
   .container {
-    position: fixed;
-    top: 70%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    margin: 5% auto;
     width: 80%;
     height: 70vh;
   }
