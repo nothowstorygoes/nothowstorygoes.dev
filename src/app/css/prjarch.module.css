@@ -17,11 +17,10 @@
 } 
 
 .player-wrapper {
-  align-items: center;
+  width: auto; 
   justify-content: center;
-  margin: 5% auto;
-  width: 60%;
-  height: 50vh;
+  align-items: center;
+  height: auto;
 }
 .react-player {
   padding-top: 56.25%; 
@@ -51,7 +50,6 @@
   .player-wrapper{
     height: auto;
     width: auto;
-    margin:0;
   }
 }
 
@@ -71,8 +69,5 @@
     text-align: center;
   }
 
-  .player-wrapper{
-    height: auto;
-    width: auto;
-  }
+  
 }
