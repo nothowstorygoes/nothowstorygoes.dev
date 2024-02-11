@@ -26,6 +26,7 @@ const Prj = () => {
             muted={true}
             playing={true}
             loop={true}
+            playsinline={true}
           />
         </div>
       </main>
