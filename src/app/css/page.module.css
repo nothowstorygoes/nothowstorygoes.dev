@@ -9,35 +9,15 @@
   min-height: 100vh;
 }
 
-.type {
-  font-family: Comfortaa, monospace;
+.container{
+  color: white;
   font-size: 50px;
-  color: #0000;
-  background: linear-gradient(-90deg, #ffff 5px, #0000 0) 10px 0,
-    linear-gradient(#ffff 0 0) 0 0;
-  background-size: calc(119 * 1ch) 200%;
-  -webkit-background-clip: padding-box, text;
-  background-clip: padding-box, text;
-  background-repeat: no-repeat;
+  font-family: Comfortaa, monospace;
   line-height: 180%;
-  animation: b 0.2s infinite steps(1), t calc(70 * 0.1s) steps(119) forwards;
-}
-@keyframes t {
-  from {
-    background-size: 0 200%;
-  }
-}
-@keyframes b {
-  50% {
-    background-position: 0 -100%, 0 0;
-  }
-}
-
-.container {
   align-items: center;
   justify-content: center;
   margin: 5% auto;
-  width: 70%;
+  width: 60%;
   height: 80vh;
 }
 
@@ -57,9 +37,6 @@
     margin: 5% auto;
     width: 90%;
     height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
   }
 }
 
@@ -79,8 +56,5 @@
     margin: 5% auto;
     width: 80%;
     height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
   }
 }
