@@ -40,7 +40,7 @@
   font-family: "Comfortaa", monospace;
   line-height: 180%;
   text-align: center;
-  white-space: pre-wrap;
+  white-space: wrap;
 }
 
 /* Media query for smartphones */
