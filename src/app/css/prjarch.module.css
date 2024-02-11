@@ -17,10 +17,10 @@
 } 
 
 .player-wrapper {
-  width: auto; 
+  width: 60%; 
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 50vh;
 }
 .react-player {
   padding-top: 56.25%; 
@@ -46,6 +46,11 @@
     height: 25vh;
     text-align: center;
   }
+
+  .player-wrapper{
+    height: auto;
+    width: auto;
+  }
 }
 
 /* Media query for tablets */
@@ -62,5 +67,10 @@
     width: 80%;
     height: 25vh;
     text-align: center;
+  }
+
+  .player-wrapper{
+    height: auto;
+    width: auto;
   }
 }
