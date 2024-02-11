@@ -12,9 +12,7 @@ const Home = () => {
     <div id="outer-container">
       <Sidebar />
       <main id="page-wrap">
-        <div className={styles.container}>
-        <pre>{tw}</pre>
-        </div>
+        <pre className={styles.container}>{tw}</pre>
       </main>
     </div>
   );
