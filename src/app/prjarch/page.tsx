@@ -2,7 +2,7 @@
 import Sidebar from "../components/menuburger";
 import styles from "../css/prjarch.module.css";
 import useTypeWriter from "../components/typewriter";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/file";
 
 const Prj = () => {
   const tw = useTypeWriter(
