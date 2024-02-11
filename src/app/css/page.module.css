@@ -45,8 +45,6 @@
 @media only screen and (max-width: 600px) {
   .main {
     padding: 3rem;
-    justify-content: center;
-    align-items: center;
   }
 
   .type {
@@ -56,12 +54,12 @@
   }
 
   .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 5% auto;
     width: 90%;
     height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
 }
 
@@ -69,8 +67,6 @@
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .main {
     padding: 4rem;
-    justify-content: center;
-    align-items: center;
   }
 
   .type {
@@ -80,11 +76,11 @@
   }
 
   .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 5% auto;
     width: 80%;
     height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
 }
