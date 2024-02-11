@@ -17,22 +17,17 @@
 }
 
 .player-wrapper {
-  width: auto;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  border-radius: 5px; /* Adjust the value as needed */
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+  border-radius: 5px;
 }
 
 .react-player {
-  padding-top: 56.25%;
-  position: relative;
-  overflow: hidden;
-  border-radius: 20px;
-}
-
-.react-player > div {
   position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 /* Media query for smartphones */
