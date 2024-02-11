@@ -16,18 +16,19 @@
   height: 50vh;
 } 
 
-.playerWrapper {
-  position: relative;
-  border-radius: 50%;
+.player-wrapper {
+  width: auto; 
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.react-player {
+  padding-top: 56.25%; 
+  position: relative; 
 }
 
-.reactPlayer {
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-  margin: 5% auto;
-  width: 60%;
-  height: 80vh;
+.react-player > div {
+  position: absolute; 
 }
 
 /* Media query for smartphones */
