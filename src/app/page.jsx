@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div id="outer-container">
       <Sidebar />
-      <main id="page-wrap">
+      <main id="page-wrap" className={styles.main}>
         <pre className={styles.container}>{tw}</pre>
       </main>
     </div>
