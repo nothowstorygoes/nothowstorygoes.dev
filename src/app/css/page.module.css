@@ -17,13 +17,14 @@
   .main {
     padding-top: 40%;
     align-items: center;
+    padding-bottom: -50%;
   }
 
   .container {
-    font-size: 30px;
+    font-size: 25px;
     width: 80%;
     height: 60vh;
-    top: 75%;
+
   }
 }
 
