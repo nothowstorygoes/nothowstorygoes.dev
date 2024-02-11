@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 
-export default function useTypeWriter(text, cursor = "|", cursorInterval = 400, charInterval = 50, lineInterval= 400, delay = 0) {
+export default function useTypeWriter(text, cursor = "|", cursorInterval = 400, charInterval = 75, lineInterval= 400, delay = 0) {
   const [cursorIsOn, setCursorIsOn] = useState(true)
   const [currentText, setCurrentText] = useState("")
 
