@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   return (
     <Menu
-      styles={styleMenu}
+      styles={styles}
       onStateChange={handleStateChange}
       pageWrapId="page-wrap"
       outerContainerId="outer-container"
