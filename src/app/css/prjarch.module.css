@@ -18,6 +18,8 @@
 
 .playerWrapper {
   position: relative;
+  border-radius: 20%;
+
 }
 
 .reactPlayer {
