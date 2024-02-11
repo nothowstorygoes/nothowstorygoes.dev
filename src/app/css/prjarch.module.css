@@ -28,8 +28,8 @@
 .reactPlayer {
   position: absolute;
   top: 0;
-  left: 50%;
-  right: 50%;
+  left: 0;
+  transform: translateX(-50%);
   border-radius: 20px;
   overflow: hidden;
 }
