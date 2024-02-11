@@ -6,27 +6,12 @@
   font-size: 40px;
 }
 
-.bgButton {
-  position: "fixed";
-  width: 40px;
-  height: 35px;
-  left: 80px;
-  top: 107px;
-}
 
 /* Media query for smartphones */
 @media only screen and (max-width: 600px) {
   .item {
     font-weight: lighter;
     font-size: 20px;
-  }
-
-  .bgButton {
-    position: "fixed";
-    width: 40px;
-    height: 35px;
-    left: 50px;
-    top: 100px;
   }
 }
 
@@ -35,13 +20,5 @@
   .item {
     font-weight: lighter;
     font-size: 25px;
-  }
-
-  .bgButton {
-    position: "fixed";
-    width: 40px;
-    height: 35px;
-    left: 50px;
-    top: 100px;
   }
 }
