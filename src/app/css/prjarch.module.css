@@ -14,7 +14,21 @@
   margin: 5% auto;
   width: 60%;
   height: 80vh;
-} /* Media query for smartphones */
+} 
+
+.playerWrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.reactPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* Media query for smartphones */
 
 @media only screen and (max-width: 600px) {
   .main {
