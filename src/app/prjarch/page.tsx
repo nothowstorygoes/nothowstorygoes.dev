@@ -6,7 +6,7 @@ import ReactPlayer from "react-player/file";
 
 const Prj = () => {
   const tw = useTypeWriter(
-    "This page is a collection of everything I \nhave ever done.\n"
+    "This page is a collection of everything I \nhave ever done."
   );
   return (
     <div id="outer-container">
