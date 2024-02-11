@@ -19,9 +19,9 @@ a {
 }
 
 #outer-container {
-  height: auto;
+  height: 100%;
 }
 
 #page-wrap {
-  height: auto;
+  height: 100%;
 }
