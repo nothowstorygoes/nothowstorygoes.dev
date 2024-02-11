@@ -2,13 +2,11 @@ body {
   background-image: url("../../../public/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  overflow-y: hidden;
+  height:100%;
 }
 
 html {
   height: 100%;
-  overflow-y: hidden;
 }
 
 pre {
@@ -22,10 +20,8 @@ a {
 
 #outer-container {
   height: 100%;
-  overflow: hidden;
 }
 
 #page-wrap {
   height: 100%;
-  overflow-y: hidden;
 }

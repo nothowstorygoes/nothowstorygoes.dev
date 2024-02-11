@@ -64,6 +64,10 @@
     height: 100%;
     width: 100%;
   }
+
+  .playerText{
+    font-size: 10px;
+  }
 }
 
 /* Media query for tablets */
@@ -85,5 +89,9 @@
   .reactPlayer {
     height: 100%;
     width: 100%;
+  }
+  
+  .playerText{
+    font-size: 10px;
   }
 }
