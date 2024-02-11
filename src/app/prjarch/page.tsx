@@ -21,6 +21,7 @@ const Prj = () => {
           <ReactPlayer
             url="/nothowstorygoes.dev/avv.mp4"
             className={styles.reactPlayer}
+            style={{'borderRadius': '50%' }}
             volume={0}
             pip={false}
             muted={true}
