@@ -6,7 +6,7 @@ import useTypeWriter from "./components/typewriter";
 
 const Home = () => {
   const tw = useTypeWriter(
-    "Hi There!\n \nThis is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms.\n"
+    "Hi There!\n \nThis is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms."
   );
   return (
     <div id="outer-container">
