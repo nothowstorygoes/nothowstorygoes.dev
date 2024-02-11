@@ -32,7 +32,7 @@ const Prj = () => {
             playsinline={true}
           />
           </a>
-          <p className="playerText">This is a brochure website for a lawyer using only HTML, CSS and JS.</p>
+          <p className={styles.playerText}>This is a brochure website for a lawyer using only HTML, CSS and JS.</p>
         </div>
       </main>
     </div>
