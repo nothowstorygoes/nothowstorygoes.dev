@@ -2,26 +2,16 @@
 import styles from "./css/page.module.css";
 import React from "react";
 import Sidebar from "./components/menuburger.js";
+import useTypeWriter from './components/typewriter';
 
-function Text() {
-  return (
-    <div className={styles.container}>
-      <span className={styles.type}>
-        Hi There!
-        <br /> <br />
-        This is my personal portfolio. <br /> Here you can find my <br />{" "}
-        project archive and all of my social platforms.
-      </span>
-    </div>
-  );
-}
+const tw = useTypeWriter('Hi There!\n \n This is my personal portfolio.\n Here you can find my\n project archive and all of my social platforms.');
 
 const Home = () => {
   return (
     <div id="outer-container">
       <Sidebar />
       <main id="page-wrap">
-        <Text />
+        <pre>{tw}</pre>
       </main>
     </div>
   );
