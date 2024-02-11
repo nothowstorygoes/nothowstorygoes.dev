@@ -11,6 +11,7 @@
   width: 60%;
   height: 80vh;
 } /* Media query for smartphones */
+
 @media only screen and (max-width: 600px) {
   .main {
     padding-top: 40%;
@@ -19,6 +20,7 @@
   }
 
   .container {
+    font-family: "Comfortaa", monospace;
     font-size: 25px;
     width: 80%;
     height: 60vh;
@@ -31,12 +33,14 @@
   .main {
     align-items: center;
     padding-top: 40%;
+    padding-bottom: -50%;
   }
 
   .container {
-    font-size: 40px;
-    width: 70%;
-    height: 70vh;
-    top: 75%;
+    font-family: "Comfortaa", monospace;
+    font-size: 30px;
+    width: 80%;
+    height: 60vh;
+    text-align: center;
   }
 }
