@@ -32,9 +32,8 @@
 /* Media query for tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .main {
-    padding: 4rem;
     align-items: center;
-    top:50%;
+    top:70%;
   }
 
   .container {
