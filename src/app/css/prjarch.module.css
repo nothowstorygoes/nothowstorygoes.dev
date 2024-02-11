@@ -18,19 +18,17 @@
 
 .playerWrapper {
   position: relative;
-  border-radius: 20%;
-
+  border-radius: 50%;
 }
 
 .reactPlayer {
   align-items: center;
-  border-radius: 20%;
+  border-radius: 50%;
   justify-content: center;
   margin: 5% auto;
   width: 60%;
   height: 80vh;
 }
-
 
 /* Media query for smartphones */
 
