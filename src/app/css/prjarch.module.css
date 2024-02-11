@@ -20,6 +20,9 @@
   position: relative;
   padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
   border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
 }
 
 .reactPlayer {
@@ -28,8 +31,6 @@
   left: 0;
   border-radius: 20px;
   overflow: hidden;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Media query for smartphones */
@@ -51,8 +52,6 @@
   .reactPlayer {
     height: 100%;
     width: 100%;
-    justify-content: center;
-    align-items: center;
   }
 }
 
@@ -75,7 +74,5 @@
   .reactPlayer {
     height: 100%;
     width: 100%;
-    justify-content: center;
-    align-items: center;
   }
 }
