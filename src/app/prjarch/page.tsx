@@ -18,6 +18,7 @@ const Prj = () => {
       >
         <pre className={styles.container}>{tw}</pre>
         <div className={styles.playerWrapper}>
+          <a href="https://avvcarloantonioesposito.altervista.org">
           <ReactPlayer
             url="/nothowstorygoes.dev/avv.mp4"
             className={styles.reactPlayer}
@@ -30,6 +31,8 @@ const Prj = () => {
             loop={true}
             playsinline={true}
           />
+          </a>
+          <p className="playerText">This is a brochure website for a lawyer using only HTML, CSS and JS.</p>
         </div>
       </main>
     </div>
