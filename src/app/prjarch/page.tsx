@@ -24,8 +24,8 @@ const Prj = () => {
             volume={0}
             pip={false}
             muted={true}
-            height='100%'
-            width='100%'
+            height='70%'
+            width='70%'
             playing={true}
             loop={true}
             playsinline={true}
