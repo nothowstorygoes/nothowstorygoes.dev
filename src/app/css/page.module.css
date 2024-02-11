@@ -15,10 +15,8 @@
 }/* Media query for smartphones */
 @media only screen and (max-width: 600px) {
   .main {
-    padding: 3rem;
-    justify-content: flex-end;
+    padding-top: 40%;
     align-items: center;
-    top:75%;
   }
 
   .container {
