@@ -64,6 +64,7 @@ const Sidebar = () => {
       styles={styleMenu}
       onStateChange={handleStateChange}
       pageWrapId="page-wrap"
+      itemClassName={styles.itemList}
       outerContainerId="outer-container"
       customBurgerIcon={<img src="/nothowstorygoes.dev/hmbmenu.svg" alt="" />}
     >
