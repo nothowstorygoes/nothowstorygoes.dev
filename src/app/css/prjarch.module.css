@@ -19,11 +19,9 @@
 .playerWrapper {
   position: relative;
   padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
-  border-radius: 50px;
-  margin: 0 0;
-  border: 0;
-  display: flex;
+  border-radius: 5px;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
@@ -32,7 +30,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 50px;
+  border-radius: 20px;
   overflow: hidden;
 }
 
