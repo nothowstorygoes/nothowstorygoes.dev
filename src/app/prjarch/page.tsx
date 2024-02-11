@@ -4,7 +4,7 @@ import styles from "../css/prjarch.module.css";
 import useTypeWriter from "../components/typewriter";
 
 const Prj = () => {
-  const tw=useTypeWriter('This page is a collection of \neverything I have ever done.\n');
+  const tw=useTypeWriter('This page is a collection of everything I \nhave ever done.\n');
   return (
     <div style={{ overflowY: "auto", height: "100vh" }} id="outer-container">
       <Sidebar />
