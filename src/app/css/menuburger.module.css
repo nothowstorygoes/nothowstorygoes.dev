@@ -6,11 +6,27 @@
   font-size: 40px;
 }
 
+.bmBurgerButton {
+  position: "fixed";
+  width: 40px;
+  height: 35px;
+  left: 80px;
+  top: 107px;
+}
+
 /* Media query for smartphones */
 @media only screen and (max-width: 600px) {
   .item {
     font-weight: lighter;
     font-size: 20px;
+  }
+
+  .bmBurgerButton {
+    position: "fixed";
+    width: 40px;
+    height: 35px;
+    left: 50px;
+    top: 100px;
   }
 }
 
@@ -19,5 +35,13 @@
   .item {
     font-weight: lighter;
     font-size: 25px;
+  }
+
+  .bmBurgerButton {
+    position: "fixed";
+    width: 40px;
+    height: 35px;
+    left: 50px;
+    top: 100px;
   }
 }

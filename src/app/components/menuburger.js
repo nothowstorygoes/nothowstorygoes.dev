@@ -6,13 +6,6 @@ import Link from "next/link";
 
 const Sidebar = () => {
   var styleMenu = {
-    bmBurgerButton: {
-      position: "fixed",
-      width: "40px",
-      height: "35px",
-      left: "80px",
-      top: "107px",
-    },
     bmBurgerBars: {
       background: "#ffff",
     },
@@ -60,6 +53,7 @@ const Sidebar = () => {
       onStateChange={handleStateChange}
       pageWrapId="page-wrap"
       itemClassName={styles.item}
+      burgerButtonClassName={styles.bgButton}
       outerContainerId="outer-container"
       customBurgerIcon={<img src="/nothowstorygoes.dev/hmbmenu.svg" alt="" />}
     >
