@@ -9,10 +9,10 @@ const Prj = () => {
     "This page is a collection of everything I \nhave ever done.\n"
   );
   return (
-    <div style={{ overflowY: "auto", height: "100vh" }} id="outer-container">
+    <div style={{ overflowY: "auto", minHeight: "100vh" }} id="outer-container">
       <Sidebar />
       <main
-        style={{ overflowY: "auto", height: "100vh" }}
+        style={{ overflowY: "auto", minHeight: "100vh" }}
         id="page-wrap"
         className={styles.main}
       >
