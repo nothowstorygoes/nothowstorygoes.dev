@@ -39,11 +39,6 @@ const Sidebar = () => {
       color: "#ffff",
       padding: "0.8em",
     },
-    bmItem: {
-      display: "inline-block",
-      fontWeight: "light",
-      fontSize: "30px",
-    },
     bmOverlay: {
       background: "rgba(18, 12, 33, 0.6)",
       top: 0,
@@ -64,7 +59,7 @@ const Sidebar = () => {
       styles={styleMenu}
       onStateChange={handleStateChange}
       pageWrapId="page-wrap"
-      itemClassName={styles.itemList}
+      itemClassName={styles.item}
       outerContainerId="outer-container"
       customBurgerIcon={<img src="/nothowstorygoes.dev/hmbmenu.svg" alt="" />}
     >
