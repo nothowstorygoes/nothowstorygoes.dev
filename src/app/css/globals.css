@@ -2,12 +2,12 @@ body {
   background-image: url("../../../public/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height:auto;
+  height:100%;
   overflow: auto;
 }
 
 html {
-  height: auto;
+  height: 100%;
   overflow: auto;
 }
 
