@@ -32,7 +32,7 @@
     font-size: 30px;
     width: 80%;
     height: 60vh;
-    margin-top: auto;
+    top: 50%;
   }
 }
 
@@ -48,7 +48,7 @@
     font-size: 40px;
     width: 70%;
     height: 70vh;
-    margin-top: auto;
+    top: 50%;
   }
 }
 
