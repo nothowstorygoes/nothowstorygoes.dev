@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu+Mono&display=swap");
 
+.main{
+  overflow: hidden;
+}
+
 .parentContainer {
   display: flex;
   justify-content: space-between;

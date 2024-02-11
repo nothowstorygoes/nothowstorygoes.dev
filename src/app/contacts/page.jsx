@@ -45,7 +45,7 @@ const Contacts = () => {
   return (
     <div id="outer-container">
       <Sidebar />
-      <main id="page-wrap">
+      <main id="page-wrap" className={styles.main}>
         <div className={styles.parentContainer}>
           <div className={styles.contactsContainer}>
             <Email
