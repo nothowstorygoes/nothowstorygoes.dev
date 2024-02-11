@@ -2,11 +2,11 @@ body {
   background-image: url("../../../public/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height:auto;
+  height:100%;
 }
 
 html {
-  height: auto;
+  height: 100%;
 }
 
 pre {
