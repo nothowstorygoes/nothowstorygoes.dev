@@ -16,17 +16,17 @@
   height: 50vh;
 }
 
-.player-wrapper {
+.playerWrapper {
   position: relative;
   padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
   overflow: hidden;
 }
 
-.react-player {
+.reactPlayer {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 10%;
+  border-radius: 20%;
   overflow: hidden;
 }
 
@@ -46,7 +46,7 @@
     text-align: center;
   }
 
-  .player-wrapper {
+  .playerWrapper {
     height: auto;
     width: auto;
   }
