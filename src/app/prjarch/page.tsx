@@ -18,7 +18,7 @@ const Prj = () => {
       >
         <pre className={styles.container}>{tw}</pre>
         <div className={styles.playerWrapper}>
-          <a href="https://avvcarloantonioesposito.altervista.org">
+          <a href="http://avvcarloantonioesposito.altervista.org">
           <ReactPlayer
             url="/nothowstorygoes.dev/avv.mp4"
             className={styles.reactPlayer}
