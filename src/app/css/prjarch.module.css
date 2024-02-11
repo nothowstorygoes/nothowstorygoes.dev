@@ -1,33 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu+Mono&display=swap");
 
-.prjText {
-    font-family: Comfortaa, monospace;
-    font-size: 50px;
-    color: #0000;
-    background: linear-gradient(-90deg, #ffff 5px, #0000 0) 10px 0,
-      linear-gradient(#ffff 0 0) 0 0;
-    background-size: calc(62 * 1ch) 200%;
-    -webkit-background-clip: padding-box, text;
-    background-clip: padding-box, text;
-    background-repeat: no-repeat;
-    line-height: 180%;
-    animation: b 0.2s infinite steps(1), t calc(40 * 0.1s) steps(62) forwards;
-  }
-  @keyframes t {
-    from {
-      background-size: 0 200%;
-    }
-  }
-  @keyframes b {
-    50% {
-      background-position: 0 -100%, 0 0;
-    }
-  }
-  
-  .containerPrj {
+.container {
+  color: white;
+  font-size: 50px;
+  font-family: Comfortaa, monospace;
+  line-height: 180%;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+  width: 60%;
+  height: 80vh;
+} /* Media query for smartphones */
+
+@media only screen and (max-width: 600px) {
+  .main {
+    padding-top: 40%;
     align-items: center;
-    justify-content: center;
-    margin: 5% auto;
-    width: 70%;
-    height: 20vh;
+    padding-bottom: -50%;
   }
+
+  .container {
+    font-family: "Comfortaa", monospace;
+    font-size: 25px;
+    width: 80%;
+    height: 60vh;
+    text-align: center;
+  }
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .main {
+    align-items: center;
+    padding-top: 40%;
+    padding-bottom: -50%;
+  }
+
+  .container {
+    font-family: "Comfortaa", monospace;
+    font-size: 30px;
+    width: 80%;
+    height: 60vh;
+    text-align: center;
+  }
+}

@@ -2,24 +2,15 @@
 import Slideshow from "../components/slideshow";
 import Sidebar from "../components/menuburger";
 import styles from "../css/prjarch.module.css";
-
-function PrjText() {
-  return (
-    <span className={styles.prjText}>
-      This page is a collection made of <br />
-      everything I have ever done.
-    </span>
-  );
-}
+import useTypeWriter from "../components/typewriter";
 
 const Prj = () => {
+  const tw=useTypeWriter('This page is a collection of everything I have ever done');
   return (
     <div style={{ overflowY: "auto", height: "100vh" }} id="outer-container">
       <Sidebar />
-      <main style={{ overflowY: "auto", height: "100vh" }} id="page-wrap">
-        <div className={styles.containerPrj}>
-          <PrjText />
-        </div>
+      <main style={{ overflowY: "auto", height: "100vh" }} id="page-wrap" className={styles.main}>
+          <pre className={styles.container}>{tw}</pre>
         <Slideshow />
       </main>
     </div>
