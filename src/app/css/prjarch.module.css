@@ -16,14 +16,13 @@
   .main {
     padding-top: 40%;
     align-items: center;
-    padding-bottom: -50%;
   }
 
   .container {
     font-family: "Comfortaa", monospace;
     font-size: 25px;
     width: 80%;
-    height: auto;
+    height: 60vh;
     text-align: center;
   }
 }
@@ -40,7 +39,7 @@
     font-family: "Comfortaa", monospace;
     font-size: 30px;
     width: 80%;
-    height: auto;
+    height: 60vh;
     text-align: center;
   }
 }
