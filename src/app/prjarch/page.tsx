@@ -14,7 +14,6 @@ const Prj = () => {
       <main
         id="page-wrap"
         className={styles.main}
-        style={{overflow:'auto'}}
       >
         <pre className={styles.container}>{tw}</pre>
         <div className={styles.playerWrapper}>
