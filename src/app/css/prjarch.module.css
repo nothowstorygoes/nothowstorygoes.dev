@@ -20,16 +20,14 @@
   position: relative;
   padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
   border-radius: 5px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .reactPlayer {
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left:0;
   border-radius: 20px;
   overflow: hidden;
 }

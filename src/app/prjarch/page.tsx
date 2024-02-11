@@ -31,8 +31,9 @@ const Prj = () => {
             playsinline={true}
           />
           </a>
-          <p className={styles.playerText}>This is a brochure website for <br />a lawyer using only HTML, CSS and JS.</p>
         </div>
+        <p className={styles.playerText}>This is a brochure website for <br />a lawyer using only HTML, CSS and JS.</p>
+
       </main>
     </div>
   );
