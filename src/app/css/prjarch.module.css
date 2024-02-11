@@ -13,7 +13,7 @@
   justify-content: center;
   margin: 5% auto;
   width: 60%;
-  height: 80vh;
+  height: 50vh;
 } 
 
 .playerWrapper {
@@ -22,6 +22,7 @@
 
 .reactPlayer {
   align-items: center;
+  border-radius: 20%;
   justify-content: center;
   margin: 5% auto;
   width: 60%;
