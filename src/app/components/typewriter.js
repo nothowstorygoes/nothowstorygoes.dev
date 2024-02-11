@@ -1,29 +1,34 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
-
-export default function useTypeWriter(text, cursor = "|", cursorInterval = 400, charInterval = 75, lineInterval= 400, delay = 0) {
-  const [cursorIsOn, setCursorIsOn] = useState(true)
-  const [currentText, setCurrentText] = useState("")
+export default function useTypeWriter(
+  text,
+  cursor = "|",
+  cursorInterval = 400,
+  charInterval = 75,
+  lineInterval = 400,
+  delay = 0
+) {
+  const [cursorIsOn, setCursorIsOn] = useState(true);
+  const [currentText, setCurrentText] = useState("");
 
   useEffect(() => {
     if (cursorInterval !== 0) {
-      window.setTimeout(setCursorIsOn, cursorInterval, !cursorIsOn)   
+      window.setTimeout(setCursorIsOn, cursorInterval, !cursorIsOn);
     }
-  }, [cursorInterval, cursorIsOn, setCursorIsOn])
+  }, [cursorInterval, cursorIsOn, setCursorIsOn]);
 
   useEffect(() => {
-    let time = delay
+    let time = delay;
 
     for (let i = 0; i < text.length; i++) {
       if (text.charAt(i) === "\n") {
-        time += lineInterval
+        time += lineInterval;
+      } else {
+        time += charInterval;
       }
-      else {
-        time += charInterval
-      }
-      window.setTimeout(setCurrentText, time, text.slice(0, i + 1))
+      window.setTimeout(setCurrentText, time, text.slice(0, i + 1));
     }
-  }, [charInterval, setCurrentText, delay, lineInterval, text])
+  }, [charInterval, setCurrentText, delay, lineInterval, text]);
 
-  return currentText + (cursorIsOn ? cursor : " ")
+  return currentText + (cursorIsOn ? cursor : " ");
 }

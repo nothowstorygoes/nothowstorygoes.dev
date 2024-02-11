@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu+Mono&display=swap");
 
-
-.container{
+.container {
   color: white;
   font-size: 50px;
   font-family: Comfortaa, monospace;
@@ -11,8 +10,7 @@
   margin: 5% auto;
   width: 60%;
   height: 80vh;
-
-}/* Media query for smartphones */
+} /* Media query for smartphones */
 @media only screen and (max-width: 600px) {
   .main {
     padding-top: 40%;
@@ -42,5 +40,3 @@
     top: 75%;
   }
 }
-
-
