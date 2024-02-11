@@ -4,7 +4,7 @@ export default function useTypeWriter(
   text,
   cursor = "|",
   cursorInterval = 400,
-  charInterval = 75,
+  charInterval = 60,
   lineInterval = 400,
   delay = 0
 ) {
