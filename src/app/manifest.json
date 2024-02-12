@@ -1,0 +1,16 @@
+{
+    "name": "nothowstorygoes.dev",
+    "short_name": "nhsg.dev",
+    "start_url": "/nothowstorygoes.dev/",
+    "scope": "/nothowstorygoes.dev/",
+    "lang": "en-EN",
+    "theme_color": "#120c21",
+    "display": "standalone",
+    "background_color": "#120c21",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "/nothowstorygoes.dev/ico192.png"
+      }
+    ]
+  }
