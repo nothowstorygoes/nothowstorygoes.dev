@@ -10,7 +10,14 @@
     "orientation": "portrait",
     "icons": [
       {
-        "src": "/nothowstorygoes.dev/ico192.png"
+        "src": "/nothowstorygoes.dev/ico192.png",
+        "type":"image/png",
+        "purpose":"any"
+      },
+      {
+        "src":"/nothowstorygoes.dev/ico192mask.png",
+        "type":"image/png",
+        "purpose":"maskable"
       }
     ]
   }
