@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="manifest" type="application/manifest+JSON" href="/app.webmanifest" />
+        <link rel="manifest" type="application/manifest+JSON" href="/nothowstorygoes.dev/app.webmanifest" />
         <meta name="description" content="Pio Alessandro Esposito, BSc Computer Science student, Web Developer"/>
       </head> 
       <body className={inter.className}>{children}</body>
