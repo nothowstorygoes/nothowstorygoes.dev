@@ -2,21 +2,21 @@
     "theme_color": "#120c21",
     "background_color": "#120c21",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/",
+    "scope": "/nothowstorygoes.dev/",
+    "start_url": "/nothowstorygoes.dev/",
     "name": "nothowstorygoes.dev",
     "short_name": "nhsg.dev",
     "icons": [
         {
             "src": "/nothowstorygoes.dev/icon-192x192.png",
-            "sizes": "144x144",
-            "type": "image/png"
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
         },
         {
-            "src": "/nothowstorygoes.dev/icon192mask.png",
+            "src": "/nothowstorygoes.dev/icon-256x256.png",
             "sizes": "256x256",
-            "type": "image/png",
-            "purpose":"maskable"
+            "type": "image/png"
         },
         {
             "src": "/nothowstorygoes.dev/icon-384x384.png",
