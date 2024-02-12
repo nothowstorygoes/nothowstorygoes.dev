@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="manifest" href="/nothowstorygoes.dev/manifest.json" />
+        <link rel="manifest" href="/nothowstorygoes.dev/manifest.webmanifest" />
 
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
