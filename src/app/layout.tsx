@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Comfortaa } from "next/font/google";
 import "./css/globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const comfortaaa = Comfortaa({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "nothowstorygoes.dev",
@@ -19,7 +19,7 @@ export default function RootLayout({
         <link rel="manifest" type="application/manifest+JSON" href="/nothowstorygoes.dev/manifest.webmanifest" />
         <meta name="description" content="Pio Alessandro Esposito, BSc Computer Science student, Web Developer"/>
       </head> 
-      <body className={inter.className}>{children}</body>
+      <body className={comfortaaa.className}>{children}</body>
     </html>
   );
 }
