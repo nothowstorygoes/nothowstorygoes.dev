@@ -12,6 +12,15 @@ const Sidebar = () => {
       height: "35px",
       left: "80px",
       top: "107px",
+
+      "@media only screen and (max-width: 600px)":
+      {
+        left: "40px",
+      },
+      "@media only screen and (min-width: 601px) and (max-width:1024)":
+      {
+        left:"60px",
+      },
     },
     bmBurgerBars: {
       background: "#ffff",

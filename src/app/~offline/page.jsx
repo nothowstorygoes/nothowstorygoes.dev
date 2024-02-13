@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Offline()
 {
-    const tw= useTypeWriter("Looks like you're offline.. ");
+    const tw= useTypeWriter("Looks like you're \n offline.. ");
     return(
         <main>
             <pre className={styles.containerText}>{tw}</pre>
