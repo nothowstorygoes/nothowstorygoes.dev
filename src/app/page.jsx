@@ -12,7 +12,7 @@ const Home = () => {
         <div className={styles.container}>
         <Typewriter cursor={true} cursorBlinking={true}
           words={[
-            "Hi There!\n \nThis is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms.",
+            "Hi There! <br/> This is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms.",
           ]}
           typeSpeed={90}
         ></Typewriter>
