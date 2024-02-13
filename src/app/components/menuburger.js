@@ -16,7 +16,6 @@ const Sidebar = () => {
 
   return (
     <Menu
-      styles={styleMenu}
       burgerButtonClassName={styles.burgerButton}
       burgerBarClassName={styles.burgerBars}
       menuClassName={styles.menu}
