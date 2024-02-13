@@ -10,5 +10,5 @@ export default Offline()
             <pre>{tw}</pre>
             <Image src="/nothowstorygoes.dev/fallback.webp"></Image>
         </main>
-    )
+    );
 }
