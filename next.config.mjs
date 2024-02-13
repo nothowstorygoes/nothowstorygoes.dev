@@ -2,8 +2,6 @@ import withPWAInit from "@ducanh2912/next-pwa";
 
 const withPWA = withPWAInit({
   dest: "public",
-  reloadOnOnline,
-  cacheOnFrontEndNav,
   fallbacks: {
     // Failed page requests fallback to this.
     document: "/~offline",
