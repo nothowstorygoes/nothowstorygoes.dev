@@ -9,12 +9,14 @@ const Home = () => {
     <div id="outer-container">
       <Sidebar />
       <main id="page-wrap" className={styles.main}>
-        <Typewriter
+        <div className={styles.container}>
+        <Typewriter cursor={true} cursorBlinking={true}
           words={[
             "Hi There!\n \nThis is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms.",
           ]}
           typeSpeed={90}
         ></Typewriter>
+        </div>
       </main>
     </div>
   );
