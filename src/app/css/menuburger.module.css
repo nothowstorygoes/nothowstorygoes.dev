@@ -1,11 +1,68 @@
+/* Position and sizing of burger button */
+.burgerButton {
+  position: fixed;
+  width: 40;
+  height: 35px;
+  left: 80px;
+  top: 107px;
+}
+
+@media screen and (max-width: 600px) {
+  .burgerButton {
+    left: 30px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024) {
+  .burgerButton {
+    left: 35px;
+  }
+}
+
+/* Color/shape of burger icon bars */
+.burgerBars {
+  background: #ffff;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.menuWrap {
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* General sidebar styles */
+.menu {
+  background: rgba(0, 0, 0, 0);
+  padding: 2.5em 1.5em 0;
+  right: 0;
+  font-size: 1.15em;
+  overflow-y: hidden;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.morphShape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.itemList {
+  color: #ffff;
+  padding: 0.8em;
+}
+
+/* Individual item */
 .item {
+  display: inline-block;
   font-family: Comfortaa, monospace;
   font-weight: lighter;
   font-size: 30px;
 }
 
-
-/* Media query for smartphones */
 @media only screen and (max-width: 600px) {
   .item {
     font-weight: lighter;
@@ -19,4 +76,11 @@
     font-weight: lighter;
     font-size: 25px;
   }
+}
+
+/* Styling of overlay */
+.overlay {
+  background: rgba(18, 12, 33, 0.6);
+  top: 0;
+  right: 0;
 }

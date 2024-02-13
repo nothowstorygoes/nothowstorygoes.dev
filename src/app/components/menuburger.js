@@ -5,56 +5,6 @@ import styles from "../css/menuburger.module.css";
 import Link from "next/link";
 
 const Sidebar = () => {
-  var styleMenu = {
-    bmBurgerButton: {
-      position: "fixed",
-      width: "40px",
-      height: "35px",
-      left: "80px",
-      top: "107px",
-    },
-    "@media only screen and (max-width: 600px)": {
-      bmBurgerButton: {
-        left: "40px",
-      },
-    },
-    "@media only screen and (min-width: 601px) and (max-width:1024)": {
-      bmBurgerButton: {
-        left: "60px",
-      },
-    },
-    bmBurgerBars: {
-      background: "#ffff",
-    },
-    bmBurgerBarsHover: {
-      background: "#a90000",
-    },
-    bmMenuWrap: {
-      position: "fixed",
-      height: "100%",
-      left: 0,
-      top: 0,
-    },
-    bmMenu: {
-      background: "rgba(0,0,0,0)",
-      right: "0",
-      padding: "2.5em 1.5em 0",
-      fontSize: "1.15em",
-      overflowY: "hidden",
-    },
-    bmMorphShape: {
-      fill: "#373a47",
-    },
-    bmItemList: {
-      color: "#ffff",
-      padding: "0.8em",
-    },
-    bmOverlay: {
-      background: "rgba(18, 12, 33, 0.6)",
-      top: 0,
-      right: 0,
-    },
-  };
 
   const handleStateChange = (state) => {
     if (state.isOpen) {
@@ -67,9 +17,16 @@ const Sidebar = () => {
   return (
     <Menu
       styles={styleMenu}
+      burgerButtonClassName={styles.burgerButton}
+      burgerBarClassName={styles.burgerBars}
+      menuClassName={styles.menu}
+      itemListClassName={styles.itemList}
+      morphShapeClassName={styles.morphShape}
+      itemClassName={styles.item}
+      menuWrapClassName={styles.menuWrap}
+      overlayClassName={styles.overlay}
       onStateChange={handleStateChange}
       pageWrapId="page-wrap"
-      itemClassName={styles.item}
       outerContainerId="outer-container"
       customBurgerIcon={<img src="/nothowstorygoes.dev/hmbmenu.svg" alt="" />}
     >
