@@ -9,9 +9,9 @@
 }
 
 .image{
-  margin-top:20vh;
-  width: 200px; /* Adjust the maximum width as per your requirement */
-  height:200px;
+  width: 100px; /* Adjust the maximum width as per your requirement */
+  height:100px;
   display: block;
-  margin: 0 auto;
+  margin: auto;
+  top: 40%;
 }
