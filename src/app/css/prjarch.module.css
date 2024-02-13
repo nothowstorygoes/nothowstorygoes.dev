@@ -1,5 +1,6 @@
 .main {
   font-family: "Comfortaa", monospace;
+  overflow-y: auto !important;
 }
 
 .container {

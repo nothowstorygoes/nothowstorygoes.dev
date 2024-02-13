@@ -1,6 +1,6 @@
 .main {
   font-family: "Comfortaa", monospace;
-  overflow-y: hidden;
+  overflow-y: hidden !important;
 }
 
 .container {
