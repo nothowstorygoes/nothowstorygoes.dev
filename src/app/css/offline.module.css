@@ -3,12 +3,13 @@
   align-items: center;
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 25px;
   font-family: "Comfortaa", monospace;
   line-height: 180%;
 }
 
 .image{
+  margin-top:20vh;
   width: 200px; /* Adjust the maximum width as per your requirement */
   height:200px;
   display: block;
