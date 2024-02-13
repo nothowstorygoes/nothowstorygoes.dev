@@ -27,10 +27,10 @@ a {
 
 #outer-container {
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 #page-wrap {
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
