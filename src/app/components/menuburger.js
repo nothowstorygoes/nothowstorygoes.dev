@@ -5,7 +5,6 @@ import styles from "../css/menuburger.module.css";
 import Link from "next/link";
 
 const Sidebar = () => {
-
   const handleStateChange = (state) => {
     if (state.isOpen) {
       document.querySelector(".bm-burger-button").style.display = "none";

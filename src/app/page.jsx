@@ -10,12 +10,15 @@ const Home = () => {
       <Sidebar />
       <main id="page-wrap" className={styles.main}>
         <div className={styles.container}>
-        <Typewriter cursor={true} cursorBlinking={true}
-          words={[
-            "Hi There!" , " This is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms.",
-          ]}
-          typeSpeed={70}
-        ></Typewriter>
+          <Typewriter
+            cursor={true}
+            cursorBlinking={true}
+            words={[
+              "Hi There!",
+              " This is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms.",
+            ]}
+            typeSpeed={70}
+          ></Typewriter>
         </div>
       </main>
     </div>
