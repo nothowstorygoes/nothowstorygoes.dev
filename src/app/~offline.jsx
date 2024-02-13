@@ -3,7 +3,7 @@ import styles from './css/offline.module.css';
 
 const tw= useTypeWriter("Looks like you're offline.. ");
 
-export default Offline()
+export default function Offline()
 {
     return(
         <main className={styles.offline}>
