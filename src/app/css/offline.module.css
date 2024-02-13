@@ -6,12 +6,12 @@
   font-size: 25px;
   font-family: "Comfortaa", monospace;
   line-height: 180%;
+  height:15vh;
 }
 
 .image{
   width: 100px; /* Adjust the maximum width as per your requirement */
   height:100px;
   display: block;
-  margin: auto;
-  top: 40%;
+  margin:auto;
 }
