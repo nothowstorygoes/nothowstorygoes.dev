@@ -7,19 +7,20 @@ import Link from "next/link";
 const Sidebar = () => {
   var styleMenu = {
     bmBurgerButton: {
-      position: "fixed",
+      position: "sticky",
       width: "40px",
       height: "35px",
       left: "80px",
       top: "107px",
-
-      "@media only screen and (max-width: 600px)":
-      {
+    },
+    "@media only screen and (max-width: 600px)": {
+      bmBurgerButton: {
         left: "40px",
       },
-      "@media only screen and (min-width: 601px) and (max-width:1024)":
-      {
-        left:"60px",
+    },
+    "@media only screen and (min-width: 601px) and (max-width:1024)": {
+      bmBurgerButton: {
+        left: "60px",
       },
     },
     bmBurgerBars: {
