@@ -1,5 +1,5 @@
-import useTypeWriter from './components/typewriter';
-import styles from './css/offline.module.css';
+import useTypeWriter from '../components/typewriter';
+import styles from '../css/offline.module.css';
 import Image from 'next/image';
 
 export default function Offline()
