@@ -9,7 +9,7 @@ export default function Offline()
     return(
         <main className={styles.offline}>
             <pre>{tw}</pre>
-            <Image src="/nothowstorygoes.dev/fallback.webp"></Image>
+            <Image src="/nothowstorygoes.dev/fallback.webp" alt="No internet"></Image>
         </main>
     );
 }
