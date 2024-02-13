@@ -6,6 +6,13 @@ body {
   overflow: hidden;
 }
 
+@media screen and (max-width:1024){
+  body{
+    background-image: none !important;
+    background-color: #120c21;
+  }
+}
+
 html {
   height: 100%;
   overflow: hidden;
