@@ -13,7 +13,7 @@ const Prj = () => {
           words={[
             "This page is a collection of everything I \nhave ever done.",
           ]}
-          typeSpeed={90}
+          typeSpeed={100}
         ></Typewriter>
         <div className={styles.playerWrapper}>
           <a href="http://avvcarloantonioesposito.altervista.org">

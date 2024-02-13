@@ -14,7 +14,7 @@ const Home = () => {
           words={[
             "Hi There!" , " This is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms.",
           ]}
-          typeSpeed={90}
+          typeSpeed={100}
         ></Typewriter>
         </div>
       </main>

@@ -7,7 +7,7 @@ export default function Offline()
 {
     return(
         <main>
-            <Typewriter words={['Looks','like',"you're",'offline..']} typeSpeed={90}></Typewriter>
+            <Typewriter words={["Looks like you're offline.."]} typeSpeed={100}></Typewriter>
             <Image src="/nothowstorygoes.dev/fallback.png" alt="No internet" className={styles.image}></Image>
         </main>
     );
