@@ -1,4 +1,4 @@
-.main {
+.containerText {
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -6,4 +6,11 @@
   font-size: 50px;
   font-family: "Comfortaa", monospace;
   line-height: 180%;
+}
+
+.image{
+  width: 200px; /* Adjust the maximum width as per your requirement */
+  height:200px;
+  display: block;
+  margin: 0 auto;
 }

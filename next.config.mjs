@@ -5,7 +5,7 @@ const withPWA = withPWAInit({
   fallbacks: {
     // Failed page requests fallback to this.
     document: "/~offline",
-    image: "/fallback.webp",
+    image: "/fallback.png",
   },
 });
 

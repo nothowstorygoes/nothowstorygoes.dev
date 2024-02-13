@@ -7,9 +7,9 @@ export default function Offline()
 {
     const tw= useTypeWriter("Looks like you're offline.. ");
     return(
-        <main className={styles.offline}>
-            <pre>{tw}</pre>
-            <Image src="/nothowstorygoes.dev/fallback.webp" alt="No internet"></Image>
+        <main>
+            <pre className={styles.containerText}>{tw}</pre>
+            <Image src="/nothowstorygoes.dev/fallback.webp" alt="No internet" className={styles.image}></Image>
         </main>
     );
 }
