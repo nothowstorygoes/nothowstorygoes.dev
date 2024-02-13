@@ -2,17 +2,19 @@
 import styles from "./css/page.module.css";
 import React from "react";
 import Sidebar from "./components/menuburger.js";
-import useTypeWriter from "./components/typewriter";
+import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
-  const tw = useTypeWriter(
-    "Hi There!\n \nThis is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms. "
-  );
   return (
     <div id="outer-container">
       <Sidebar />
       <main id="page-wrap" className={styles.main}>
-        <pre className={styles.container}>{tw}</pre>
+        <Typewriter
+          words={[
+            "Hi There!\n \nThis is my personal portfolio.\nHere you can find my\nproject archive and all of my social platforms.",
+          ]}
+          typeSpeed={90}
+        ></Typewriter>
       </main>
     </div>
   );
