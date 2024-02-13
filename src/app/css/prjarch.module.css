@@ -10,6 +10,7 @@
   justify-content: center;
   margin: 5% auto;
   width: 60%;
+  white-space: pre-wrap;
   height: 30vh;
 }
 

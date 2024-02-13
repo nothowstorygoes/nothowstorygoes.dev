@@ -9,12 +9,14 @@ const Prj = () => {
     <div id="outer-container">
       <Sidebar />
       <main id="page-wrap" className={styles.main}>
-        <Typewriter
-          words={[
-            "This page is a collection of everything I \nhave ever done.",
-          ]}
-          typeSpeed={100}
-        ></Typewriter>
+        <div className={styles.container}>
+          <Typewriter
+            words={[
+              "This page is a collection of everything I \nhave ever done.",
+            ]}
+            typeSpeed={70}
+          ></Typewriter>
+        </div>
         <div className={styles.playerWrapper}>
           <a href="http://avvcarloantonioesposito.altervista.org">
             <ReactPlayer

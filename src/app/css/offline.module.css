@@ -1,11 +1,11 @@
-.containerText {
+.container {
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
   font-size: 25px;
   line-height: 180%;
-  height:25vh;
+  height:30vh;
 }
 
 .image{
