@@ -7,7 +7,7 @@ import Link from "next/link";
 const Sidebar = () => {
   var styleMenu = {
     bmBurgerButton: {
-      position: "sticky",
+      position: "fixed",
       width: "40px",
       height: "35px",
       left: "80px",
