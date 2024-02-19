@@ -16,11 +16,8 @@
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0",
     "react-player": "^2.14.1",
-<<<<<<< HEAD
-=======
     "react-router-dom": "^6.22.1",
     "react-sidebar": "^3.0.2",
->>>>>>> 6c69a3e0f78173749ea85f9ffb5bd46e75941ff3
     "react-simple-typewriter": "^5.0.1"
   },
   "devDependencies": {
