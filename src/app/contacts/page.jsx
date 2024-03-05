@@ -64,7 +64,7 @@ const Contacts = () => {
             <Social
               info={{
                 nome: "Pio Alessandro Esposito",
-                url: "NULL",
+                url: "https://linkedin.it/in/pioalessandroesposito",
                 ico: "/nothowstorygoes.dev/icons/linkedin.png",
               }}
             />
